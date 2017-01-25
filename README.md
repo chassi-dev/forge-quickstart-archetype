@@ -22,10 +22,10 @@ When you are ready to create a new project using this archetype, from the comman
 ### Wizard Prompts
 
 #### Choosing the archetype
-Find the corresponding entry number in your local repository for this archetype. Use that value as the requested `Choose a number or ...` value prompted by maven and hit enter.
+Find the corresponding entry number in your local repository for this archetype. Use that value as the requested `Choose a number or ...` value prompted by maven.
 
 #### Define the group id 
-For `Define value for property 'groupId': `, enter your projects group id, for example `com.example`. 
+For `Define value for property 'groupId': `, enter your projects group id. This value will also be used as the default package structure option in a later step. Typically it is suggested to use a reverse domain style, e.g. `com.example` instead of `example.com`. 
 
 #### Define the artifact id
 For `Define value for property 'artifactId': `, enter your project name, for example: `my-application`. This will not only define your projects name, it will also create the projects root directory based on this choice.
